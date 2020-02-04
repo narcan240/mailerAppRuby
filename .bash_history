@@ -78,3 +78,12 @@ git push  origin master -f
 cat ~/environment/key.pub
 git push -u origin master
 git add -all
+git add --all
+ git commit -m "First commit"
+git remote add origin git@github
+git push -u origin master
+git remote -v
+cd ..
+ls
+cd Ruby
+ls
